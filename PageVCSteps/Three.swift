@@ -14,7 +14,7 @@ class Three: UIViewController {
        @IBOutlet weak var button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib
          button.addTarget(nil, action: Selector(("goToPageOne")), for: .touchUpInside)
     }
     

@@ -99,3 +99,10 @@ extension ViewController:  UIPageViewControllerDataSource {
     
 }
 
+enum GotoPage: String {
+    case One = "goToPageOne"
+    case Two = "goToPageTwo"
+    case Three = "goToPageThree"
+
+}
+
