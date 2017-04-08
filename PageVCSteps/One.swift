@@ -16,7 +16,7 @@ class One: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        button.addTarget(nil, action: Selector(("goToPageTwo")), for: .touchUpInside)
+        button.addTarget(nil, action: Selector((GotoPage.Two.rawValue)), for: .touchUpInside)
     }
     
     // func getOne()
